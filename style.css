@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: #372240;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+.nav__bar__logo{
+    color: rgb(212, 212, 212);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.nav__bar__links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+.nav__bar__link a{
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
