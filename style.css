@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient( 109.6deg,  rgb(42, 149, 149) 11.2%, rgba(51,8,103,1) 92.5% );
 }
 nav{
     background: #372240;
@@ -29,4 +30,32 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 12px;
+}
+
+/* presentation section style */
+.centralize__content{
+    margin: auto;
+    text-align: center;
+}
+.presentation__section{
+    display: flex;
+    height: 100vh;
+}
+.presentation__text__hello, .presentation__text__description{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    min-height: 1vh;
+    letter-spacing: 5px;
+}
+.presentation__text__hello{
+    color: #8de797;
+}
+.presentation__text__description{
+    color: rgb(152, 207, 243);
+}
+.my__name__decoration{
+    text-transform: uppercase;
+    color: rgb(206, 175, 175);
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 90px;
 }
