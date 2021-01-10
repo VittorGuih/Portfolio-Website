@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Vittor's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -20,52 +20,55 @@
                 <h3>Portfolio</h3>
             </div>
             <ul class="nav__bar__links">
-                <li class="nav__bar__link"><a href="index.html">Home</a></li>
+                <li class="nav__bar__link"><a href="#home">Home</a></li>
                 <li class="nav__bar__link"><a href="#contact">Contact</a></li>
                 <li class="nav__bar__link"><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </header>
     <main>
-    <!-- home page section -->
-        <section class="presentation__section">
+        <section class="presentation__section" id="home">
             <div class="centralize__content">
                 <h2 class="presentation__text__hello">Hello,</h2>
-                <h1 class="presentation__text__description">I'm <span class="my__name__decoration">Vittor</span> and this is my portfolio!</h1>
-            <!-- <i>some icons here</i> -->
+                <h1 class="presentation__text__description">I'm <span class="my__name__decoration">Vittor</span> and
+                    this is my portfolio!</h1>
+                <!-- <i>some icons here</i> -->
+            </div>
         </section>
         <!-- section where the portfolio will be displayed-->
-        <div class="portfolio__page">
-            <section class="portfolio__section">
-                <h1 class="header__section__name">Portfolio Gallery</h1>
-                <p class="portfolio__section__description__text">
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                </p>
-                <div class="array__of__projects">
-                    <ul class="array">
-                        <li class="project">
-                            <h3 class="project__header">Project name</h3>
-                            <img src="" alt="some project screenshot">
-                            <p>
-                                short description
-                            </p>
-                            <ul class="used__technology__list">
-                                <li class="technology__used">HTML</li>
-                                <li class="technology__used">CSS</li>
-                            </ul>
-                            <button class="project__code__button">Code</button> 
-                            <button class="project__code__button">See</button>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </div>
+        <section id="projects" class="portfolio__section" >
+            <h1 class="header__section__name">Portfolio Gallery</h1>
+            <div class="array__of__projects">
+                <ul class="array">
+                    <li>
+                        <h3 class="project__header">This website !</h3>
+                        <img src="./imgs/project__img__01.svg" alt="some project screenshot" width="100" height="100">
+                        <p class="project__text__description">
+                            <em>
+                                Website created to show all the projects I have already done or will still do,
+                                connected to my repository.
+                            </em>
+                        </p>
+                        <h4 class="used__technologies__header">
+                            Used technologies
+                        </h4>
+                        <hr>
+                        <ul class="used__technology__list">
+                            <li class="used__technology__item">HTML</li>
+                            <li class="used__technology__item">CSS</li>
+                        </ul>
+                        <a href="#code" target="_black" rel="noreferrer noopener" title="Code View"
+                            class="project__code__button">Code</a>
+                        <a href="#preview" target="_black" rel="noreferrer noopener" title="Preview"
+                            class="project__code__button">View</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer class="footer__section">
+    <footer class="footer__section" align="center">
         <p class="footer__section__text">Copyright 2021 @Vittor Guilherme</p>
     </footer>
 </body>
+
 </html>
