@@ -110,6 +110,7 @@ nav{
 .array{
     flex: 0 50%; 
     padding: 12vh 0px 12vh 0px;
+    
 }
 
 .project__text__description{
@@ -134,11 +135,17 @@ nav{
 }
 .used__technology__item{
     flex: auto;
-    color: rgb(206, 175, 175);
+    color: #8de797;
 }
 hr{
+    display: flex;
     height: 0px;
-    border: solid 1px rgb(209, 209, 209);;
+    border: solid 1px rgb(209, 209, 209);
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .project__code__button{
     display: inline-block;
@@ -148,8 +155,46 @@ hr{
     width: 100px;
     border: solid 1px #553962;
     background: #553962;
-    color: #8de797;
+    color: rgb(209, 209, 209);
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
 }
+
+/* footer section */
+
+.footer__section{
+    background:  rgba(40, 102, 102, 0.45);
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    color:rgb(209, 209, 209);
+    padding: 40px 0px 0px 0px;
+    margin-top: 100px;
+    
+}
+.footer__section a{
+    text-decoration: none;
+    color: white;
+}
+.footer__section p:first-child{
+    display: flex;
+    width: 10vw;
+    /* min-width: 10%;
+    max-width: 10%; */
+    margin: auto;
+    font-size: 30px;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+.footer__section p{
+    padding: 0px 0px 4px 0px;
+    letter-spacing: 1px;
+
+}
+.footer__name{
+    color: #8de797;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
