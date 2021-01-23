@@ -50,7 +50,7 @@ nav{
     text-align: left;
     font-family: 'Poppins', sans-serif;
     min-height: 1vh;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 .presentation__text__hello{
     color: #8de797;
@@ -61,8 +61,9 @@ nav{
 .my__name__decoration{
     text-transform: uppercase;
     color: rgb(206, 175, 175);
-    font-family: 'East Sea Dokdo', cursive;
-    font-size: 90px;
+    /* font-family: 'East Sea Dokdo', cursive;*/
+    font-size: 35px; 
+    font-weight: 900;
 }
 
 /* portfolio gallery section */
@@ -77,7 +78,7 @@ nav{
 }
 .header__section__name{
     text-transform: uppercase;
-    padding: 20px 0px 100px 0px;
+    padding: 20px 0px 90px 0px;
     font-size: 1.875rem;
     color: rgb(209, 209, 209);
     letter-spacing: 4px;
@@ -93,8 +94,7 @@ nav{
 }
 .array{
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
 }
 .array__of__projects{
     display: flex;
@@ -104,7 +104,6 @@ nav{
     text-align: center;
     justify-content: space-around;
     max-width: 90vw;
-    height: auto;
     letter-spacing: 2px;
 }
 .array{
@@ -138,14 +137,10 @@ nav{
     color: #8de797;
 }
 hr{
-    display: flex;
-    height: 0px;
     border: solid 1px rgb(209, 209, 209);
     margin-right: 100px;
     margin-left: 100px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
 }
 .project__code__button{
     display: inline-block;
@@ -180,11 +175,8 @@ hr{
 .footer__section p:first-child{
     display: flex;
     width: 10vw;
-    /* min-width: 10%;
-    max-width: 10%; */
     margin: auto;
     font-size: 30px;
-    /* text-align: center; */
     justify-content: space-between;
 }
 .footer__section p{
